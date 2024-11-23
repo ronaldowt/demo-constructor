@@ -1,0 +1,11 @@
+/* @media only screen and (max-device-width: 1200px) {
+    #quadro-conteudo #frame {
+        zoom: 0
+    }
+}
+
+@media only screen and (min-device-width: 1201px) {
+    #quadro-conteudo #frame {
+        zoom: calc(100% * 1.8)
+    }
+} */

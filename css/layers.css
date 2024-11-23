@@ -1,0 +1,92 @@
+.layers ul {
+    width: 267px;
+}
+
+.layers ul li {
+    border: 1px solid transparent;
+    background: #1e1e2f;
+    padding: 7px;
+    font-family: "Noto Sans";
+    border-radius: 0;
+    /* margin: 5px 5px 5px; */
+    float: left;
+    /* width: 100%; */
+    border-bottom: 1px solid #14141e;
+}
+
+.layers ul li:hover {
+    border: 1px solid #26313c;
+    background: #26313c;
+}
+
+.layers ul li:hover ul li {
+    background: #26313c;
+}
+
+.layers ul li a {
+    color: #2a4456;
+}
+
+.layers ul li ul li:hover {
+    /*background: #1e1e2f;*/
+    cursor: pointer;
+    color: #56e1ba;
+    border: 1px solid transparent;
+}
+
+.layers ul li ul li {
+    text-align: center;
+    padding: 2px 4px 2px 4px;
+    /* background: #e5b4f9; */
+    border: 1px solid transparent;
+    border-radius: 6px;
+    margin-left: 2px;
+}
+
+.layer-title {
+    font-family: "Roboto Condensed";
+    padding: 4px;
+    margin-left: 24px;
+    color: #c3c3c3;
+    margin-bottom: 10px;
+    border: none;
+    width: 78%;
+    background: #1e1e2f;
+}
+
+.layer-title:hover {
+    background: #0f0f10;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#default-message-layer {
+    margin-top: 72px;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    cursor: default;
+    text-align: center;
+    background: none;
+    border: none;
+}
+
+#default-message-layer:hover {
+    background: none;
+}
+
+.btn-default-message-layer {
+    padding: 7px;
+    border-radius: 8px;
+    line-height: 79px;
+    font-size: 12pt;
+    background: #56dac4;
+    font-family: "Roboto Condensed";
+    text-decoration: none;
+}
+
+#loading-layers {
+    width: 100%;
+    text-align: center;
+    background: none;
+    border: none;
+}
